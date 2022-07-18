@@ -13,6 +13,7 @@ This profile accomodates these peculiarities.
 ## Usage
 
 Given a workflow `my-workflow`, copy the `aws-parallelcluster-slurm` directory to `my-workflow/profiles`.
-Make sure the `status-scontrol.sh` script is executable.
+Make sure the `status-scontrol.sh` script is executable, and in `config.yaml`change the parameter `partition`
+in section `default-resources` to the name of a queue in your cluster.
 
 From `my-workflow`, execute Snakemake as `snakemake --profile profiles/aws-parallelcluster-slurm`.
