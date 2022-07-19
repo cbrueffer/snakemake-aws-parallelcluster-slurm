@@ -1,3 +1,5 @@
+[![Snakemake](https://img.shields.io/badge/snakemake-≥7.0.0-brightgreen.svg)](https://snakemake.github.io)
+
 # Snakemake Profile for Running on AWS ParallelCluster with the Slurm Scheduler
 
 This is a [Snakemake](https://snakemake.github.io/) profile for running on [AWS ParallelCluster](https://docs.aws.amazon.com/parallelcluster) with the [Slurm](https://slurm.schedmd.com/documentation.html) scheduler.
